@@ -1,2 +1,11 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+My solution loops through the string twice declaring the indices as i and j. 
+Each loop, it slices the string with a start point at i and and endpoint 
+at j + 1, and pushes the sliced letter and it's consecutive (j + 1)
+into a previously declared empty array. After each loop is finished, it returns the solution array.
+
+
+My solution's time complexity is (O(n^2)) because of the two loops iterating through the string.
+
